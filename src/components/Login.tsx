@@ -3,7 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 
 const Login = () => {
   return (
-    <div className="flex flex-col items-center justify-center h-screen bg-gray-300">
+    <div className="gradient-custom flex flex-col items-center justify-center h-screen">
       <div className="flex shadow-lg rounded-lg overflow-hidden">
         <div className="hidden md:block w-1/2 lg:w-1/3">
           <img 
