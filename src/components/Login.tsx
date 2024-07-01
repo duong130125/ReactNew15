@@ -1,14 +1,13 @@
-import React from 'react';
-import { Form, Button } from 'react-bootstrap';
+import { Form, Button } from "react-bootstrap";
 
 const Login = () => {
   return (
     <div className="gradient-custom flex flex-col items-center justify-center h-screen">
       <div className="flex shadow-lg rounded-lg overflow-hidden">
         <div className="hidden md:block w-1/2 lg:w-1/3">
-          <img 
-            src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/hinh-nen-3d-hinh-nen-iphone-dep-3d-didongviet@2x-576x1024.jpg" 
-            alt="Canyon" 
+          <img
+            src="https://didongviet.vn/dchannel/wp-content/uploads/2023/08/hinh-nen-3d-hinh-nen-iphone-dep-3d-didongviet@2x-576x1024.jpg"
+            alt="Canyon"
             className="h-full w-full object-cover"
           />
         </div>
@@ -25,7 +24,9 @@ const Login = () => {
             </Form.Group>
             <div className="flex justify-between items-center mb-3">
               <Form.Check type="checkbox" label="Remember me" />
-              <a href="#" className="text-blue-500">Forgot password?</a>
+              <a href="#" className="text-blue-500">
+                Forgot password?
+              </a>
             </div>
             <Button variant="primary" type="submit" className="w-full mb-3">
               Login
